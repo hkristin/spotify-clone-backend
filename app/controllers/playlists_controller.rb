@@ -20,7 +20,7 @@ class PlaylistsController < ApplicationController
     end
 
     def destroy
-        @playlist = Playlist.find_by(params[:id])
+        @playlist = Playlist.find_by(id: params[:id])
         @playlist.destroy
         render json: @playlist
     end
