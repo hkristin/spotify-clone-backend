@@ -99,6 +99,7 @@ Song.create([
         title: "Forever Young",
         release_date: "1984-01-06",
         album: "Forever Young",
+        link: "https://open.spotify.com/search/forever%20young%201984",
         artist_id:  Artist.all.sample.id,
         playlist_id: Playlist.all.sample.id
     },
@@ -106,6 +107,7 @@ Song.create([
         title: "I Want it That Way",
         release_date: "1994-05-07",
         album: "Backstreet Back",
+        link: "https://open.spotify.com/search/i%20want%20it%20that%20way",
         artist_id:  Artist.all.sample.id,
         playlist_id: Playlist.all.sample.id
     },
@@ -113,6 +115,7 @@ Song.create([
         title: "Stairway to Heaven",
         release_date: "1971-06-04",
         album: "Led Zeppelin IV",
+        link: "https://open.spotify.com/search/stairway%20to%20heaven",
         artist_id:  Artist.all.sample.id,
         playlist_id: Playlist.all.sample.id
     },
@@ -120,6 +123,7 @@ Song.create([
         title: "Bohemian Rhapsody",
         release_date: "1975-03-01",
         album: "A Night at the Opera",
+        link: "https://open.spotify.com/search/bohemian%20rhapsody",
         artist_id:  Artist.all.sample.id,
         playlist_id: Playlist.all.sample.id
     },
@@ -127,6 +131,7 @@ Song.create([
         title: "Dreams",
         release_date: "1977-04-03",
         album: "Rumours",
+        link: "https://open.spotify.com/search/dreams",
         artist_id:  Artist.all.sample.id,
         playlist_id: Playlist.all.sample.id
     },
@@ -134,6 +139,7 @@ Song.create([
         title: "At Last",
         release_date: "1955-07-07",
         album: "At Last",
+        link: "https://open.spotify.com/search/at%20last",
         artist_id:  Artist.all.sample.id,
         playlist_id: Playlist.all.sample.id
     },
@@ -141,6 +147,7 @@ Song.create([
         title: "Irreplaceable",
         release_date: "2001-05-04",
         album: "B'Day",
+        link: "https://open.spotify.com/search/irreplaceable",
         artist_id:  Artist.all.sample.id,
         playlist_id: Playlist.all.sample.id
     },
@@ -148,6 +155,7 @@ Song.create([
         title: "September",
         release_date: "1972-01-05",
         album: "Best of Earth, Wind, and Fire",
+        link: "https://open.spotify.com/search/september",
         artist_id:  Artist.all.sample.id,
         playlist_id: Playlist.all.sample.id
     },
@@ -155,6 +163,7 @@ Song.create([
         title: "Rocket Man",
         release_date: "1975-06-04",
         album: "Honky Chateau",
+        link: "https://open.spotify.com/search/rocket%20man",
         artist_id:  Artist.all.sample.id,
         playlist_id: Playlist.all.sample.id
     },
@@ -162,6 +171,7 @@ Song.create([
         title: "Roxanne",
         release_date: "1982-05-02",
         album: "The Police",
+        link: "https://open.spotify.com/search/roxanne%20the%20police",
         artist_id:  Artist.all.sample.id,
         playlist_id: Playlist.all.sample.id
     }

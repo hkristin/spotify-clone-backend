@@ -1,5 +1,4 @@
 class SongsController < ApplicationController
-
     def index
         @songs = Song.all
         render json: @songs
@@ -28,8 +27,7 @@ class SongsController < ApplicationController
     private
     
     def song_params
-        params.require(:song).permit(:id, :title, :release_date, :album)
+        params.require(:song).permit(:id, :title, :release_date, :album, :link)
     end
-
 end
     
